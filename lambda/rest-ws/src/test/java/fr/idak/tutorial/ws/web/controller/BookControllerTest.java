@@ -21,7 +21,7 @@ import fr.idak.tutorial.ws.repository.BookRepository;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = {ContextConfig.class, WebMvcConfig.class})
 @WebAppConfiguration
-public class BookControllerTes {
+public class BookControllerTest {
 	
 	 @Resource 
 	 private WebApplicationContext wac;
